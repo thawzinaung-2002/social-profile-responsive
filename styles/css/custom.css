@@ -1,0 +1,15 @@
+@import "//node_modules/bootstrap/scss/bootstrap.scss";
+.btn:hover {
+  color: hsl(0, 0%, 8%) !important;
+  background-color: hsl(75, 94%, 57%);
+}
+
+body {
+  background-color: hsl(0, 0%, 12%);
+}
+
+main {
+  background-color: hsl(0, 0%, 20%);
+}
+
+/*# sourceMappingURL=custom.css.map */

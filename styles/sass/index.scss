@@ -1,0 +1,21 @@
+$success: hsl(75, 94%, 57%);
+$btncolor: hsl(0, 0%, 8%);
+
+$white: hsl(0, 0%, 100%);
+$grey: hsl(0, 0%, 20%);
+$darkgrey: hsl(0, 0%, 12%);
+$offBlack: hsl(0, 0%, 8%);
+@import "//node_modules/bootstrap/scss/bootstrap.scss";
+
+.btn:hover {
+    color: $btncolor;
+    background-color: $success;
+}
+
+body {
+    background-color: $darkgrey;
+}
+
+main {
+    background-color: $grey;
+}
